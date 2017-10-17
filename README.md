@@ -1,2 +1,2 @@
-# webpack-setups
-Collection of Wepack configurations
+# setups
+A collection of base frontend environment configurations
