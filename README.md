@@ -1,2 +1,2 @@
 # setups
-A collection of base frontend environment configurations
+A collection of base frontend configurations
