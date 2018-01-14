@@ -1,5 +1,5 @@
 {
-  "name": "base webpack config with base build and dev-server",
+  "name": "base-webpack-config-with-base-build-and-dev-server",
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
