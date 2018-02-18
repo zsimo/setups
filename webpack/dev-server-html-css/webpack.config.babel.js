@@ -22,8 +22,21 @@ module.exports = function (env = {}) {
         },
 
         plugins: [
-            new HtmlWebpackPlugin()
-        ]
+            new HtmlWebpackPlugin({
+                template: "./src/index.html"
+            })
+        ],
+        module: {
+            rules: [
+              {
+                test: /\.css$/,
+                use: [
+                  { loader: "style-loader" },
+                  { loader: "css-loader" }
+                ]
+              }
+            ]
+        }
     };
 
 };

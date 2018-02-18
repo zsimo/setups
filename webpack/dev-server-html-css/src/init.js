@@ -1,1 +1,3 @@
-document.write("<h1>Hello!</h1>");
+
+
+require("./style.css");
