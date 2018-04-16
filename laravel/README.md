@@ -18,6 +18,11 @@
      php artisan migrate
      ```
 
+  - create base auth service
+      ```sh
+      php artisan make:auth
+      ```
+
  - start dev server
      ```sh
      php artisan serve
