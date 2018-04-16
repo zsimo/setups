@@ -12,3 +12,8 @@
      ```sh
      php artisan migrate
      ```
+
+ - start dev server
+     ```sh
+     php artisan serve
+     ```
