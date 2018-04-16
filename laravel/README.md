@@ -1,6 +1,7 @@
  - install laravel
      ```sh
      composer create-project --prefer-dist laravel/laravel blog
+     php artisan key:generate
      ```
 
  - create db
