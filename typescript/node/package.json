@@ -1,0 +1,16 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^6.1.1",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "start": "ts-node ./init.ts"
+  },
+  "bin": {
+    "ts-node": "./node_modules/.bin/ts-node"
+  }
+}
