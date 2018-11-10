@@ -2,7 +2,11 @@
      ```sh
      composer create-project --prefer-dist laravel/laravel blog
      ```
-
+ - directory permissions
+     ```sh
+     chmod -R 777 storage
+     chmod -R 777 bootstrap/cache
+     ```
  - generate APP_KEY
      ```sh
      php artisan key:generate
